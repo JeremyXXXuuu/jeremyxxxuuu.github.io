@@ -91,10 +91,12 @@
           <div>
             <h2 class="about__subtitle">I'am Huamao</h2>
             <p class="about__text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat
-              ut voluptates soluta, aut earum nemo recusandae cumque
-              perferendis! Recusandae alias accusamus atque.
+              I am 23 years old and I come from Shanghai. I moved to France UTBM
+              2 years ago from Shanghai University to continue my study in
+              computer science. I did an internship as R&D engineer at Siemens
+              healthineers. I am interested in full-stack development, I love
+              writing code, and I like to discuss the latest technologies with
+              my friends after school.
             </p>
           </div>
         </div>
@@ -107,11 +109,7 @@
         <div class="skills__container bd-grid">
           <div>
             <h2 class="skills__subtitle">Profesional Skills</h2>
-            <p class="skills__text">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit
-              optio id vero amet, alias architecto consectetur error eum eaque
-              sit.
-            </p>
+            <p class="skills__text"></p>
             <div class="skills__data">
               <div class="skills__names">
                 <i class="bx bxl-python skills__icon"></i>
@@ -201,9 +199,25 @@
         <h2 class="section-title">Contact</h2>
 
         <div class="contact__container bd-grid">
-          <form action="" class="contact__form">
-            <input type="text" placeholder="Name" class="contact__input" />
-            <input type="mail" placeholder="Email" class="contact__input" />
+          <form
+            action="https://formsubmit.co/hua.xu@utbm.fr"
+            class="contact__form"
+            method="POST"
+          >
+            <input
+              type="text"
+              name="name"
+              placeholder="Name"
+              class="contact__input"
+              required
+            />
+            <input
+              type="mail"
+              name="email"
+              placeholder="Email"
+              class="contact__input"
+              required
+            />
             <textarea
               name=""
               id=""
@@ -211,11 +225,7 @@
               rows="10"
               class="contact__input"
             ></textarea>
-            <input
-              type="button"
-              value="Envoyer"
-              class="contact__button button"
-            />
+            <input type="submit" value="Send" class="contact__button button" />
           </form>
         </div>
       </section>
